@@ -33,14 +33,6 @@ img {
   width: 100%;
 }
 
-.first {
-  display: flex;
-}
-
-.second {
-  display: none;
-}
-
 .lottery-container {
   display: flex;
   flex-direction: column;
@@ -113,14 +105,6 @@ button {
 header {
   padding: 0 50px;
 }
-
-.second {
-    display: flex;
-  }
-
- .first {
-    display: none
-  }
 
   h1 {
   font-size: 3em;
