@@ -103,20 +103,24 @@ button {
 
 /* Mobile Layout */
 @media (max-width: 480px) {
-header {
-  padding: 0 50px;
-}
+  header {
+    padding: 0 50px;
+  }
 
   h1 {
-  font-size: 3em;
-  margin: 60px 0;
-}
+    font-size: 3em;
+    margin: 60px 0;
+  }
 
-h2 {
-  font-size: 1.5em;
-}
+  h2 {
+    font-size: 2em;
+  }
 
-button {
-  border: 2x solid black;
-}
+  h3 {
+    font-size: 1.5em;
+  }
+
+  button {
+    border: 2x solid black;
+  }
 }
