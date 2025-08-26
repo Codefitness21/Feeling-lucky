@@ -1,7 +1,7 @@
-document.querySelector("#rollFiveNum").addEventListener("click", rollFiveNum);
-document.querySelector("#rollOneNum").addEventListener("click", rollOneNum);
+document.querySelector("#pickFiveNum").addEventListener("click", pickFiveNum);
+document.querySelector("#pickOneNum").addEventListener("click", pickOneNum);
 
-function rollFiveNum() {
+function pickFiveNum() {
   let nums = [ ];
   document.querySelector("#lottoTopLine").innerHTML = "  ";
   for (let i = 1; i <= 5; i++) {
@@ -11,7 +11,7 @@ function rollFiveNum() {
   document.querySelector("#lottoTopLine").innerHTML += nums.join("&nbsp;&nbsp;&nbsp;&nbsp;");
 }
 
-function rollOneNum() {
+function pickOneNum() {
   let num = [];
    document.querySelectorAll("#lottoBottomLine").innerHTML = " ";
   for (let i = 0; i < 1; i++) {
